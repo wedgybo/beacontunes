@@ -9,5 +9,11 @@
 #import <UIKit/UIKit.h>
 
 @interface FirstViewController : UIViewController
+@property (nonatomic,weak) IBOutlet UITextView *distanceLabel;
+
+@property (nonatomic,weak) IBOutlet UILabel *venueName;
+@property (nonatomic,weak) IBOutlet UILabel *artistName;
+@property (nonatomic,weak) IBOutlet UILabel *trackName;
+@property (nonatomic,weak) IBOutlet UIImageView *albumArt;
 
 @end
